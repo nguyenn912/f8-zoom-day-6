@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    /* background-color: darksalmon; */
+}
+
+/* -------------------- CV -------------------- */
+.container-cv {
+    background-color: #c3a39f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: justify;
+    /* word-spacing: 1px; */
+}
+
+.container-cv-content {
+    background-color: white;
+    /* width */
+    width: 750px;
+    margin: 0 auto;
+    /* FLEX BOX */
+    display: flex;
+
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.container-cv-content h1 {
+    font-size: 0.8125rem;
+    font-weight: 700;
+}
+
+.container-cv-content h2,
+.container-cv-content h3 {
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+
+.container-cv-content p {
+    font-size: 0.5rem;
+}
+
+.container-cv-content li {
+    font-size: 0.5rem;
+}
+
+/* ul */
+.cv-content ul {
+    list-style: disc;
+}
+
+/* ------------ Add Sidebar ----------*/
+
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    background-color: #2a78ab;
+    padding: 16px 0;
+}
+
+.sidebar a {
+    color: #111;
+    text-decoration: underline;
+}
+
+.name-cv,
+.job-name {
+    text-align: center;
+}
+
+.detail-info-cv {
+    margin: 8px 0;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.sidebar-content img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.cv-content {
+    /* background-color: #c3a39f; */
+    padding: 16px 10px;
+}
+
+.skill-job,
+.hobbies {
+    margin-left: 10px;
+    list-style: disc;
+    text-align: left;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.title {
+    /* padding-top: 16px; */
+    padding-bottom: 6px;
+    border-bottom: 1px solid black;
+}
+
+.job-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.job-title-content {
+    padding-left: 15px;
+}
+.job-title-content li {
+    padding-left: 4px;
+}
+
+.education-degree {
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.education-degree b {
+    font-weight: 700;
+}
