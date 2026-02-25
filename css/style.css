@@ -254,3 +254,70 @@ body {
     border-radius: 2px;
     cursor: pointer;
 }
+
+/*  -------------------- product-list -------------------- */
+
+/* #14130f #1b1a16 #eeedec #959592 */
+
+.wrapper-watch {
+    background-color: #c3a39f;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+
+    max-width: 700px;
+    background-color: #14130f;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+/* Mỗi hàng có 3 sản phẩm, tự động xuống hàng nếu hẹp. */
+.product-item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 200px;
+
+    background-color: #1b1a16;
+
+    color: #eeedec;
+    border: 1px solid transparent;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Thêm hiệu ứng hover nổi bật cho từng sản phẩm (dùng box-shadow, …). */
+.product-item:hover {
+    /* transform: translateY(-6px) scale(1.02); */
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.35);
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.detail-info {
+    padding: 8px;
+    line-height: 1.8;
+}
+
+.watch-name,
+.price-watch {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.gender-wearing {
+    font-size: 0.75rem;
+    color: #959592;
+}
+
+.buy-watch {
+    color: #14130f;
+}
