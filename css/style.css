@@ -417,3 +417,23 @@ body {
     border: 1px solid transparent;
     border-radius: 20px;
 }
+
+/* -------------------- Froggy --------------------  */
+.wrapper-froggy {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #cacaca;
+    padding: 50px;
+}
+
+.wrapper-froggy img {
+    width: 600px;
+}
+
+.wrapper-froggy figcaption {
+    text-align: center;
+    font-size: 1rem;
+    padding: 4px 0;
+}
